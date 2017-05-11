@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: dimgrey;
 }
 h1,
 h2,
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Nixie One', cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -53,23 +53,28 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: dimgrey;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: dimgrey;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: dimgrey;
 }
 .img-centered {
   margin: 0 auto;
 }
+.img-responsive {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: white;
+  color: black;
 }
 header .container {
   padding-top: 100px;
@@ -81,7 +86,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Nixie One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -103,8 +108,8 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: black;
+  font-family: 'Nixie One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -125,7 +130,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: dimgrey;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -133,13 +138,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: dimgrey;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: dimgrey;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -149,9 +154,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: dimgrey;
   color: white;
-  border-color: #18BC9C;
+  border-color: dimgrey;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -181,8 +186,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: white;
+  color: black;
 }
 @media (max-width: 767px) {
   section {
@@ -203,7 +208,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: dimgrey;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -284,7 +289,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: dimgrey;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -297,17 +302,17 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: black;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: black;
 }
 .btn-outline {
-  color: white;
+  color: black;
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
@@ -318,14 +323,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: dimgrey;
   background: white;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: dimgrey;
+  border-color: dimgrey;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -334,8 +339,8 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
+  background-color: dimgrey;
+  border-color: dimgrey;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -357,17 +362,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: dimgrey;
+  border-color: dimgrey;
 }
 .btn-primary .badge {
-  color: #2C3E50;
+  color: dimgrey;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: dimgrey;
+  border-color: dimgrey;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -376,8 +381,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: dimgrey;
+  border-color: dimgrey;
 }
 .btn-success:active,
 .btn-success.active,
@@ -399,11 +404,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: dimgrey;
+  border-color: dimgrey;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: dimgrey;
   background-color: white;
 }
 .btn-social {
@@ -467,7 +472,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: dimgrey;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -478,7 +483,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: dimgrey;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -507,7 +512,7 @@ fieldset[disabled] .btn-success.active {
   position: absolute;
   left: 0px;
   top: 0px;
-  background: #18BC9C;
+  background: dimgrey;
   outline: 0;
   transition: top 0.1s ease-in, background 0.5s linear;
 }
